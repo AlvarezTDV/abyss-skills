@@ -8,6 +8,7 @@ Portable, project-aware Agent Skills by **AlvarezTDV**. Skill instructions are E
 |---|---|---|
 | [brainstorm](skills/brainstorm/SKILL.md) | Understand a project and propose natural, traceable improvements. | Standalone. |
 | [brainstorm-follow](skills/brainstorm-follow/SKILL.md) | Reconcile decisions, manual edits and implementation evidence. | brainstorm and existing idea documents. |
+| [brainstorm-perf](skills/brainstorm-perf/SKILL.md) | Investigate an authorized, idea-specific performance hypothesis. | brainstorm, an existing idea and explicit consent. |
 
 ## Use
 
