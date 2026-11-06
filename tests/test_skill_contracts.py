@@ -7,7 +7,7 @@ import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILLS = ("brainstorm", "brainstorm-follow")
+SKILLS = ("brainstorm", "brainstorm-follow", "brainstorm-perf")
 SECTIONS = (
     "Activation Contract", "Hard Rules", "Decision Gates",
     "Execution Steps", "Output Contract", "References",
@@ -121,7 +121,24 @@ class SkillContracts(unittest.TestCase):
             "Project panorama", "Functional capabilities", "Ideas", "Limitations",
         ))
 
+    def test_perf_authorization_and_isolation(self):
+        self.requires("skills/brainstorm-perf/references/safety-and-consent.md", (
+            "do not execute", "read-only", "credentials", "audit logs",
+            "separate test environment", "consent", "cleanup", "residual",
+            "symlink", "original", "network", "logs", "timeout",
+        ))
 
+    def test_perf_measurements_and_evidence(self):
+        self.requires("skills/brainstorm-perf/references/measurement-workflow.md", (
+            "confirmed", "not observed", "inconclusive", "representative",
+            "repetitions", "end-to-end", "original session", "ID", "-test",
+        ))
+        self.requires("skills/brainstorm-perf/assets/test-plan.template.md", (
+            "Hypothesis", "Design", "Access and consent", "Reproduction", "Cleanup plan",
+        ))
+        self.requires("skills/brainstorm-perf/assets/test-results.template.md", (
+            "Conclusion:", "Measurements", "Original-state checks", "Cleanup and privacy",
+        ))
 
     def test_repository_license_and_registration(self):
         self.requires("LICENSE", ("Apache License", "Version 2.0", "Redistribution"))
