@@ -14,3 +14,6 @@ These rules govern work on this collection, not permission to modify an analyzed
 
 | Name | Activation | Source |
 |---|---|---|
+| brainstorm | Project ideas, improvements, contextual brainstorming | `skills/brainstorm/SKILL.md` |
+| brainstorm-follow | Existing idea decisions, manual-state reconciliation, implementation tracking | `skills/brainstorm-follow/SKILL.md` |
+| brainstorm-perf | Consented measurement of an existing idea's performance hypothesis | `skills/brainstorm-perf/SKILL.md` |
