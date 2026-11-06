@@ -7,7 +7,7 @@ import unittest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILLS = ("brainstorm",)
+SKILLS = ("brainstorm", "brainstorm-follow")
 SECTIONS = (
     "Activation Contract", "Hard Rules", "Decision Gates",
     "Execution Steps", "Output Contract", "References",
@@ -93,6 +93,13 @@ class SkillContracts(unittest.TestCase):
             "accepted", "implemented", "history", "partial", "confirmation",
         ))
 
+    def test_follow_is_optional(self):
+        self.requires("skills/brainstorm/SKILL.md", (
+            "standalone", "unavailable", "disabled", "brainstorm-follow",
+        ))
+        self.requires("skills/brainstorm-follow/references/follow-workflow.md", (
+            "brainstorm", "explicit", "do not generate", "derived", "manual",
+        ))
 
     def test_idea_template_has_single_editable_status(self):
         text = self.text("skills/brainstorm/assets/idea.template.md")

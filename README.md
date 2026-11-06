@@ -7,6 +7,7 @@ Portable, project-aware Agent Skills by **AlvarezTDV**. Skill instructions are E
 | Skill | Use it to | Requirement |
 |---|---|---|
 | [brainstorm](skills/brainstorm/SKILL.md) | Understand a project and propose natural, traceable improvements. | Standalone. |
+| [brainstorm-follow](skills/brainstorm-follow/SKILL.md) | Reconcile decisions, manual edits and implementation evidence. | brainstorm and existing idea documents. |
 
 ## Use
 
