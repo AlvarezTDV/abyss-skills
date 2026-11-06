@@ -14,3 +14,4 @@ These rules govern work on this collection, not permission to modify an analyzed
 
 | Name | Activation | Source |
 |---|---|---|
+| brainstorm | Project ideas, improvements, contextual brainstorming | `skills/brainstorm/SKILL.md` |

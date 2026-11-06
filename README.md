@@ -6,8 +6,7 @@ Portable, project-aware Agent Skills by **AlvarezTDV**. Skill instructions are E
 
 | Skill | Use it to | Requirement |
 |---|---|---|
-
-Foundation snapshot: licensing and authoring guidance are present; skill packages and runnable contract tests follow in dependent units.
+| [brainstorm](skills/brainstorm/SKILL.md) | Understand a project and propose natural, traceable improvements. | Standalone. |
 
 ## Use
 
