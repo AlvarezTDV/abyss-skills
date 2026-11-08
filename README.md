@@ -1,6 +1,8 @@
 # abyss-skills
 
-Portable, project-aware Agent Skills by **AlvarezTDV**. Skill instructions are English; conversations and generated documents follow the session language.
+Abyss Skills is a growing collection of practical, reusable skills for AI assistants. It aims to help with a range of needs across different projects, adding new skills over time—including for areas where useful skills are still missing. The collection currently starts with skills for brainstorming improvements, tracking decisions, and investigating performance hypotheses.
+
+Created by **AlvarezTDV**, this collection is intended to be portable across AI clients. Skill instructions are written in English; conversations and generated documents follow the session language.
 
 ## Skills
 
